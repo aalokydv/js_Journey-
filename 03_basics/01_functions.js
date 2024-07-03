@@ -24,7 +24,7 @@ function loginusername(username ="rahul"){
     console.log(`username is ${anyobjects.username} and price is ${anyobjects.price}`);
 
  }
- handleObjects(user)
+//  handleObjects(user)
 
  const mynewarray =[200,400,500,456]
 
@@ -33,4 +33,4 @@ function loginusername(username ="rahul"){
 
     
  }
- console.log(returnsecondvalue([200,499,599,356]));
+//  console.log(returnsecondvalue([200,499,599,356]));

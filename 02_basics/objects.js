@@ -51,7 +51,7 @@ const users =[
 // console.log(Object.keys(jsuser));
 // console.log(Object.values(jsuser));
 // console.log(Object.entries(jsuser));
-// console.log(jsuser.hasOwnProperty('age'));
+console.log(jsuser.hasOwnProperty('age'));
 
 
 
