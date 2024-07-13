@@ -4,8 +4,9 @@ let anotherId = Symbol('123')
 
 console.log(id === anotherId)
 
-const heros = ["alok " , "yadav" , "khairwal"];
-let myobj = {
+const heros = ["alok " , "yadav" , "khairwal"];  //array
+
+let myobj = {                                   //object
     name : "hitesh",
     age : "34",
 }
