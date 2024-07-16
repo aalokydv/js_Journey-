@@ -16,7 +16,17 @@
     const sayaalok =function(){
         console.log("aalok yadav is here forever");
     }
-    setTimeout(sayaalok , 3000)
+    const changeisness = function(){
+        document.querySelector('h2').innerHTML= "dont give up guys"
+
+    }
+    const changeme= setTimeout(changeisness, 5000)
+    setTimeout(sayaalok , 3000)  
+
+    document.querySelector('#stop').addEventListener('click' , function(){
+        clearTimeout(changeme)
+        console.log("Stopped");
+    })
 
 </script>
 </html>
